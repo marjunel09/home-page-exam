@@ -1,0 +1,171 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+#hero {
+    background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), 
+                url(https://cgarcia-zuitt.github.io/static-app-1/images/bg1.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+nav {
+    background-color: #F7D7E8;
+    border-bottom: 3px solid #D1A1C7;
+}
+
+.navbar-brand {
+    font-family: "Black Han Sans", sans-serif;
+    font-size: 20px;
+    font-weight: 700;
+    color: #9C27B0 !important;
+}
+
+.navbar-nav .nav-link {
+    color: #5E2750 !important;
+    font-family: "Jua", sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    transition: color 0.5s ease;
+}
+
+.navbar-nav .nav-link:hover {
+    color: #DC3545 !important;
+}
+
+#hero h1 {
+    font-family: "Black Han Sans", sans-serif;
+    font-size: 48px;
+    font-weight: 700;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5)
+}
+
+#hero p {
+    font-family: "Jua", sans-serif;
+    font-weight: 300;
+    font-size: 24px;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5)
+}
+
+#hero button {
+    background-color: #e83e8c;
+    border: none;
+    font-size: 1.25rem;
+    padding: 0.75rem 2rem;
+    border-radius: 50px;
+    color: #FFFFFF;
+    font-family: "Jua", sans-serif;
+    transition: background-color 0.5s ease; 
+}
+
+#hero button:hover {
+    background-color: #DC3545;
+}
+
+#about h3{
+    font-family: "Black Han Sans", sans-serif;
+    font-weight: 700;
+    font-size: 32px;
+    color: #D1A1C7;
+    text-shadow: 
+    1px 1px 0 #5E2750,  
+    -1px -1px 0 #5E2750,
+    1px -1px 0 #5E2750,
+    -1px 1px 0 #5E2750;
+}
+
+#about p {
+    font-family: "Jua", sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    color: 5E2750;
+}
+
+#carouselExampleControls {
+    border: 5px solid white; /* White border */
+    border-radius: 15px; /* Rounded corners */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    overflow: hidden; /* Ensures children are contained within the border radius */
+}
+
+.carousel-item {
+    height: 400px;
+}
+
+.carousel-item img {
+    width: 100%; /* Make the image take up the full width of the container */
+    height: auto; /* Maintain the aspect ratio */
+    object-fit: cover; /* Crop the image to cover the entire area */
+    object-position: center; /* Center the image */
+}
+
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+    background-color: #D1A1C7;
+    border-radius: 50%; 
+    padding: 25px; 
+}
+
+#featured h3{
+    font-family: "Black Han Sans", sans-serif;
+    font-weight: 700;
+    font-size: 32px;
+    color: #D1A1C7;
+    text-shadow: 
+    1px 1px 0 #5E2750,  
+    -1px -1px 0 #5E2750,
+    1px -1px 0 #5E2750,
+    -1px 1px 0 #5E2750;
+}
+
+.card {
+    background-color: #f7e6f7;
+    border: none;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 15px;
+    overflow: hidden;
+}
+
+.card-img-top {
+    height: 200px;
+    object-fit: cover;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+}
+
+.card-title {
+    font-family: "Black Han Sans", sans-serif;
+    font-size: 20px;
+    font-weight: 700;
+    color: #5e2750;
+}
+
+.card-text {
+    font-family: "Jua", sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    color: #6d597a;
+}
+
+footer {
+    border-top: 2px solid #E9D2E9;
+    background-color: #F8F9FA;
+}
+
+footer p {
+    font-family: "Jua", sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    color: #6d597a;
+}
+
+hr {
+    border: none; /* Remove the default border */
+    height: 2px; /* Set the height of the line */
+    padding: 2px;
+    background-color: #E9D2E9; /* Set the background color */
+    margin: 20px 0; /* Add vertical spacing */
+}
